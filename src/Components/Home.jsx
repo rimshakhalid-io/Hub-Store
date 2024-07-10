@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <>
             <div className='bg-gradient-to-r  from-cyan-100 via-cyan-200 to-cyan-300 xs:h-[680px] lg:h-[591px] lg:flex  lg:flex-col '>
-                <div className='flex xs:ml-[40px] pt-[40px] lg:ml-[90px] '>
+                {/* <div className='flex xs:ml-[40px] pt-[40px] lg:ml-[90px] '>
                     <div >
                         <TbDeviceMobileDollar className='xs:h-[43px] xs:w-[25px] text-cyan-800 ' />
                     </div>
@@ -14,12 +14,12 @@ export default function Home() {
                         <h3 className='ml-4 tracking-widest font-bold'>Hub</h3>
                         <h3 className='ml-4 tracking-widest font-bold'>store</h3>
                     </div>
-                </div>
+                </div> */}
                 <div>
                     <img className="lg:hidden xs:justify-center xs:w-[800px] xs:pt-8 lg:absolute lg:top-0 lg:bottom-0  " src={img1} alt="" />
                 </div>
                 <div className='hidden lg:block'>
-                    <img className="  lg:ml-[745px] lg:w-[90vh] lg:h-[589px] lg:absolute lg:top-0 lg:bottom-0" src={img1} alt="" />
+                    <img className="  lg:ml-[745px] lg:w-[90vh] lg:mt-28 lg:h-[400px] lg:absolute lg:top-[78px] lg:bottom-0" src={img1} alt="" />
                 </div>
                 <div>
                     <div className='  lg:hidden xs:justify-center xs:text-center xs:mt-7'>
